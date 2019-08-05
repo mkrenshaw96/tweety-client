@@ -1,0 +1,22 @@
+#compose-wrapper{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    background: lightgray;
+}
+
+#compose-input-wrap{
+    width: 90vw;
+    height: 40vh;
+    background: white;
+    border-radius: 22px;
+    margin:auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#compose-input{
+    font-size: 1rem;
+}

@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
-import Auth from './Components/Auth/Auth';
+// import Auth from './Components/Auth/Auth';
+// import Main from './Components/Main/Main';
+import Create from './Components/Create/Create';
 import './App.css';
 
 function App() {
@@ -15,10 +17,12 @@ function App() {
   }
 
   return (
-    token ? <div>
-      <h1>YOU ARE LOGGED IN</h1>
-      <button onClick={handleLogout}>LOGOUT</button>
-    </div> : <Auth handleLogin={handleLogin} handleLogout={handleLogout} />
+    // token ? <div>
+    //   <h1>YOU ARE LOGGED IN</h1>
+    //   <button onClick={handleLogout}>LOGOUT</button>
+    // </div> : <Auth handleLogin={handleLogin} handleLogout={handleLogout} />
+    // <Main />
+    <Create />
   );
 }
 

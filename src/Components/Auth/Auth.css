@@ -1,7 +1,7 @@
 #auth-form{
     display: flex;
     flex-direction: column;
-    width: 15vw;
+    width: 300px;
     margin: 10vh auto;
     padding: 20px;
     border-radius: 12px;
