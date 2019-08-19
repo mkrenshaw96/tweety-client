@@ -4,16 +4,16 @@ import Home from './Components/Home/Home';
 import Profile from './Components/Profile/Profile';
 import Nav from './Components/Nav/Nav';
 import Create from './Components/Create/Create';
-import { Route, Switch, BrowserRouter, Redirect } from 'react-router-dom';
+import { Route, Switch, BrowserRouter } from 'react-router-dom';
 import './App.css';
 
 function App() {
   const [token, setToken] = useState(null);
 
-  function handleLogin(x) {
-    setToken(x)
-    console.log('TOKEN RECEIVED AT TOP LEVEL')
-  }
+  // function handleLogin(x) {
+  //   setToken(x)
+  //   console.log('TOKEN RECEIVED AT TOP LEVEL')
+  // }
 
   function handleLogout() {
     console.log('USER LOGGED OUT')
